@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:ital,wght@0,200;0,300;1,100&family=Yellowtail&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img{
+    width:49px;
+    padding: 0px 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+nav ul li{
+    padding:0px 12px;
+    cursor: pointer;
+}
+
+.contaner{
+    background-color: rgba(34, 34, 34, 0.767);
+    color:white;
+    min-height: 72vh;
+    
+    text-transform: capitalize;
+    display: flex;
+    margin:23px auto;
+    width:90%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(./image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.songitem{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.39);
+    color:black;
+    margin:12px 0px;
+    border-radius: 34px;
+    width:60%;
+    height:15vh;
+}
+
+.songitem img{
+    width:15%;
+    height: 13vh;
+    border-radius:10%;
+    
+}
+
+.timestam{
+    margin: 0px 23px;
+}
+
+.songitemcontaner{
+    margin-top:30px;
+
+}
+
+.songitemtext{
+    font-size:1.3rem;
+    font-weight: bolder;
+}
+video{
+    
+    color:white;
+    opacity: 0;
+    transition:all 0.5s ease-in;
+}
+
+.songinfo{
+    position:absolute;
+    left:10vw;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+
+    position:sticky;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.952);
+bottom:0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color:white;
+
+
+}
+
+
+#mypogress{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid green;
+}
+
+.fa-backward{
+    color:white;
+}
+.icon{
+    margin-top: 5px;
+    cursor: pointer;
+}

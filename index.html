@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <nav>
+
+        <ul>
+            <li class="brand"><img src="./image/logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>Search</li>
+            <li>Liked Song</li>
+            <li>Your library</li>
+    
+            
+        </ul>
+
+    </nav>
+
+
+    <div class="contaner">
+
+<div class="songlist">
+
+    <h1>Spotify- Create Your Favourite Playlist</h1>
+
+
+    <div class="songitemcontaner">
+
+<div class="songitem">
+    <img src="./image/redtayler.jpg" alt="1">
+    <span class="songitemtext">Butterflies</span>
+    <span class="songlistplay"><span class="timestam">05:34 <i class=" songitemplay icon bi bi-play-circle"  id="0"  style="color:black;font-size:1.3rem;"></i></span> </span>
+</div>
+
+
+
+
+
+<div class="songitem">
+    <img src="./image/oliviacover.jpeg" alt="1">
+    <span class="songitemtext">Until I Found You</span>
+    <span class="songlistplay"><span class="timestam">05:34 <i class=" songitemplay icon bi bi-play-circle" id="1" style="color:black;font-size:1.3rem;"></i></span> </span>
+</div>
+
+
+
+
+
+<div class="songitem">
+    <img src="./image/cover3.jpg" alt="1">
+    <span class="songitemtext">Scars To Your Beautiful</span>
+    <span class="songlistplay"><span class="timestam">05:34 <i class=" songitemplay icon bi bi-play-circle" id="2" style="color:black;font-size:1.3rem;"></i></span> </span>
+</div>
+
+
+
+
+<div class="songitem">
+    <img src="./image/cover2.jpg" alt="1">
+    <span class="songitemtext">Perfect</span>
+    <span class="songlistplay"><span class="timestam">05:34 <i class=" songitemplay icon bi bi-play-circle" id="3" style="color:black;font-size:1.3rem;"></i></span> </span>
+</div>
+
+
+
+
+    </div>
+
+
+</div>
+
+<div class="songbaner"></div>
+
+    </div>
+
+
+
+
+    <div class="bottom">
+
+<input type="range" name="range" id="mypogress" min="0" max="100" value="0">
+
+<div class="icon">
+    <i class="icon bi bi-skip-backward" id="previous" style="color:white;font-size: 2.5rem;"></i>
+    <i class="icon bi bi-play-circle" id="masterplay" style="color:white;font-size: 2.5rem;"></i>
+    <i class="icon bi bi-fast-forward"  id="next" style="color:white;font-size: 2.5rem;"></i>
+
+</div>
+
+<div class="songinfo">
+    <video autoplay loop muted width="45px" id="gif">  
+        <source src="./video/musicgif.mp4" type="video/mp4">  
+       
+     </video>
+     <span id="mastersongname">Until I Found You</span>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+        
+</body>
+</html>
