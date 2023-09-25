@@ -28,7 +28,7 @@ let song=[
     },
 
     {
-        songname:"Perfect",filepath:"./music/4.mp3.mpeg",coverpath:"image/cover3.jpg"
+        songname:"Ho Hey (The Moonlight)",filepath:"./music/4.mp3.mpeg",coverpath:"image/cover3.jpg"
     }
     
 

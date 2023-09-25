@@ -11,12 +11,18 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 font-family: 'Poppins', sans-serif;
+
+
 
 }
 
 nav{
+width:100%;
+background-color: black;
+
 
 }
 
@@ -27,6 +33,7 @@ nav ul{
     background-color: black;
     color: white;
     align-items: center;
+    
 }
 
 .brand img{
@@ -57,7 +64,7 @@ nav ul li{
     margin:23px auto;
     width:90%;
     border-radius: 12px;
-    padding: 30px;
+    padding:1.875rem;
     background-image: url(./image/background.jpg);
     background-size: cover;
     background-position: center;
@@ -130,8 +137,8 @@ video{
 .bottom{
 
     position:sticky;
-    height: 130px;
-    background-color: rgba(0, 0, 0, 0.952);
+    height:8.125rem;
+    background-color: rgb(0, 0, 0);
 bottom:0;
 display: flex;
 justify-content: center;
@@ -156,4 +163,71 @@ color:white;
 .icon{
     margin-top: 5px;
     cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+
+
+.dis{
+    display:none;
+}
+
+h1{
+    color:rgb(255, 254, 254);
+}
+
+.songitem{
+    min-width:100%;
+    margin-right:2rem;
+    overflow-x:visible;
+    
+    height:13vh;
+    
+    
+    
+}
+
+.songitemtext{
+    font-size: 1rem;
+    text-align: center;
+}
+.songitemcontaner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: visible;
+}
+
+.songitem img{
+
+    width:23%;
+    overflow-x: visible;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+}
+
+.songinfo{
+    
+    bottom: 0;
+    left: 2;
+    margin-top: 1rem;
+}
+
+
+
+.bottom{
+    
+    width:100%;
+}
+
+.contaner{
+    width:95%;
+}
+
+
+
 }
